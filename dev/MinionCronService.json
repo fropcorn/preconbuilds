@@ -1,0 +1,15 @@
+{
+	"apps": [
+		{
+			"name": "MinionCronService",
+			"script": "cron.js",
+			"err_file": "cron_err.log",
+			"out_file": "cron_out.log",
+			"log_file": "cron_all.log",
+			"merge_logs": true,
+			"log_date_format": "YYYY-MM-DD HH:mm",
+			"cwd": "/home/fcadmin/Fropcorn/MinionService",
+			"watch": false
+		}
+	]
+}

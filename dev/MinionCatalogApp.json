@@ -1,0 +1,10 @@
+{
+	"apps": [
+		{
+			"name": "MinionCatalogApp",
+			"script": "main_server.js",
+			"cwd": "/home/fcadmin/Fropcorn/MinionCatalogApp",
+			"watch": false
+		}
+	]
+}

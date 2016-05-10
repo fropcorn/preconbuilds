@@ -1,0 +1,54 @@
+# Dummy change 2
+# --------------------
+# IntelliJ Files
+# --------------------
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# --------------------
+# NodeJS Files
+# --------------------
+npm-debug.log
+node_modules/
+
+# --------------------
+# App Files
+# --------------------
+minionConfig.json
+nconf.config.json
+
+# --------------------
+# Babel compiled files
+# --------------------
+dist/
+*-compiled.js
+*.js.map
+
+# --------------------
+# Code coverage
+# --------------------
+coverage/
+
+# --------------------
+# Logs
+# --------------------
+newrelic_agent.log
+info.log
+logs/
+service_logs/
+proxy_logs/
+cron_logs/
+cron_all.log
+cron_out.log
+cron_err.log
+service_all.log
+service_out.log
+service_err.log
+proxy_all.log
+proxy_out.log
+proxy_err.log
+config_all.log
+config_out.log
+config_err.log

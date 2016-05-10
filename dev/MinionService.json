@@ -1,0 +1,41 @@
+{
+	"apps": [
+		{
+			"name": "MinionService",
+			"script": "server.js",
+			"err_file": "service_err.log",
+			"out_file": "service_out.log",
+			"log_file": "service_all.log",
+			"merge_logs": true,
+			"log_date_format": "YYYY-MM-DD HH:mm",
+			"cwd": "/home/fcadmin/Fropcorn/MinionService",
+			"watch": false,
+			"ignore_watch": [
+				"node_modules",
+				".git",
+				"newrelic_agent.log",
+				"nconf.config.json",
+				"minionConfig.json",
+				"changehostname.sh",
+				"service_logs",
+				"proxy_logs",
+				"cron_logs",
+				"service_err.log",
+				"service_out.log",
+				"service_all.log",
+				"cron_err.log",
+				"cron_out.log",
+				"cron_all.log",
+				"proxy_err.log",
+				"proxy_out.log",
+				"proxy_all.log",
+				"config_err.log",
+				"config_out.log",
+				"config_all.log"
+			],
+			"watch_options": {
+				"followSymlinks": false
+			}
+		}
+	]
+}

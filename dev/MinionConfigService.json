@@ -1,0 +1,15 @@
+{
+	"apps": [
+		{
+			"name": "MinionConfigService",
+			"script": "minion-config-server.js",
+			"err_file": "config_err.log",
+			"out_file": "config_out.log",
+			"log_file": "config_all.log",
+			"merge_logs": true,
+			"log_date_format": "YYYY-MM-DD HH:mm",
+			"cwd": "/home/fcadmin/Fropcorn/MinionService",
+			"watch": false
+		}
+	]
+}
